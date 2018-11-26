@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Political Meter</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="panel panel-success">Do you value for community?</h1>
+      <form id="values">
+        <div class="radio">
+          <label>
+            <input type="radio" name="value" value="yes" checked>
+            Yes
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="value" value="no">
+            No
+          </label>
+        </div>
+        <button type="submit" class="btn">Submit!</button>
+      </form>
+
+      <div class="community">
+        <form id="questions">
+          <p class="panel panel-body">Do you mind paying taxes?</p>
+          <select class="form-control" id="taxes">
+            <option value="1">Yes</option>
+            <option value="2">No</option>
+            <option value="3">Maybe</option>
+          </select>
+          <p class="panel panel-body">What is your favorite vehicle?</p>
+          <select class="form-control" id="vehicle">
+            <option value="1">Car</option>
+            <option value="2">Truck</option>
+            <option value="3">Van</option>
+          </select>
+          <p class="panel panel-body">What is your favorite job?</p>
+          <select class="form-control" id="job">
+            <option value="1">Firefighter</option>
+            <option value="2">Police Officer</option>
+            <option value="3">Mailman</option>
+          </select>
+          <p class="panel panel-body">What is your favorite food?</p>
+          <select class="form-control" id="food">
+            <option value="1">Pizza</option>
+            <option value="2">Pasta</option>
+            <option value="3">Cookies</option>
+          </select>
+          <p class="panel panel-body">Where do you live?</p>
+          <select class="form-control" id="place">
+            <option value="1">Portland</option>
+            <option value="2">Los Angeles</option>
+            <option value="3">San Francisco</option>
+          </select>
+          <p class="panel panel-body">What is your favorite pet?</p>
+          <select class="form-control" id="pet">
+            <option value="1">Dog</option>
+            <option value="2">Cat</option>
+            <option value="3">Hamster</option>
+          </select>
+          <button type="submit" class="btn">Submit!</button>
+        </form>
+      </div>
+
+      <div class="liberal">
+        <p class="panel panel-body">You are liberal</p>
+      </div>
+      <div class="moderate">
+        <p class="panel panel-body">You are moderate</p>
+      </div>
+      <div class="conservative">
+        <p class="panel panel-body">You are conservative</p>
+      </div>
+      <div class="no-community">
+        <p class="panel panel-body">Then find some other values besides that.</p>
+      </div>
+    </div>
+  </body>
+</html>

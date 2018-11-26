@@ -1,0 +1,23 @@
+.community, .no-community, .liberal, .moderate, .conservative {
+  display: none
+}
+
+.btn {
+  display: block;
+}
+
+.container {
+  color: blue;
+}
+
+body {
+  background-color: firebrick;
+  border: 5px solid blue;
+  font-size: 20px;
+  padding-bottom: 5px;
+  margin: auto 20px;
+}
+
+#taxes, #vehicle, #job, #food, #place, #pet {
+  margin-bottom: 20px;
+}
